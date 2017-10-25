@@ -1,1 +1,1 @@
-# MyCodingbat
+# MyCodingBat
