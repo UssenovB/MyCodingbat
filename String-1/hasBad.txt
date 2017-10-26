@@ -1,0 +1,20 @@
+public boolean hasBad(String str){
+ int len = str.length();
+
+   if(len == 3 && str.substring(0, 3).equals("bad"))
+
+     return true;
+
+ else if (len>=4)
+{
+
+   if(str.substring(0, 3).equals("bad"))
+
+   return true;
+
+   return str.substring(1, 4).equals("bad");
+
+ }
+ else
+ return false;
+}
