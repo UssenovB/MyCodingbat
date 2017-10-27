@@ -1,0 +1,13 @@
+public String conCat (String a, String b){
+ int aLen = a.length();
+ int bLen = b.length();
+
+ if(aLen >= 1 && bLen >= 1){
+ if(a.charAt(aLen-1) == b.charAt(0)){
+  return (a+b.substring(1));
+   }else{
+	return a+b;
+  }
+ }
+ return a+b;
+}
