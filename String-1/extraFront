@@ -1,0 +1,9 @@
+public String extraFront(String str) {
+  String result = "";
+  if(str.length()>=2){
+    result = str.substring(0,2);
+  }else{
+    result = str.substring(0);
+  }
+  return result+result+result;
+}
